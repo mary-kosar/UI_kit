@@ -32,8 +32,7 @@ span {
 
 .field input,
 .field textarea,
-.field select
-.switch {
+.field select {
     background: #F8FAFC;
     border-radius: 4px;
     padding: 12px;
@@ -166,11 +165,12 @@ textarea:focus {
     transition: .4s;
 }
 
-.switch__input:checked + .switch__slider{
-    background-color: #3B4256;
+.switch__input:checked~.switch__slider{
+    background-color: #B8BCCA;
 }
 
-.switch__input:checked + .switch__slider::before{
+.switch__input:checked + .switch__slider::before{   /*в инете вариант + как лучше + или ~ */
    transform: translateX(26px);
+   background-color: #F8FAFC;
 
 }
