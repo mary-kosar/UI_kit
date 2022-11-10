@@ -172,5 +172,24 @@ textarea:focus {
 .switch__input:checked + .switch__slider::before{   /*в инете вариант + как лучше + или ~ */
    transform: translateX(26px);
    background-color: #F8FAFC;
-
 }
+
+/* slider */
+.slider {
+    display: inline-block;
+    width: 20px;
+    height: 150px;
+    padding: 0;
+   
+ }
+ 
+ /* vertical
+ .slider input {
+   width: 150px;
+   height: 20px;
+   margin: 0;
+   transform-origin: 75px 75px;
+   transform: rotate(-90deg);
+ } */
+
+ 
